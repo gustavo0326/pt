@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.julianandres.parquedelcafe.MainActivity"/>
+      <point      
+        x = "220"      
+        y = "76"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.julianandres.parquedelcafe.ScrollingActivity"/>
+      <point      
+        x = "500"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.julianandres.parquedelcafe.Mapa"/>
+      <point      
+        x = "1592"      
+        y = "72"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.julianandres.parquedelcafe.dibujo"/>
+      <point      
+        x = "508"      
+        y = "5000"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.julianandres.parquedelcafe.Veinticuatro"/>
+      <point      
+        x = "372"      
+        y = "2408"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.example.julianandres.parquedelcafe.ListaAtracciones"/>
+      <point      
+        x = "1848"      
+        y = "2456"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>
