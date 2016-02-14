@@ -7,6 +7,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import com.example.julianandres.parquedelcafe.services.MyService;
 
 public class Mapa extends AppCompatActivity {
 
@@ -32,5 +33,8 @@ public class Mapa extends AppCompatActivity {
             }
         });
     }
+
+    MyService service=new MyService(getApplicationContext());
+
 
 }

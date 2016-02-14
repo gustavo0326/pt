@@ -14,7 +14,6 @@
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -38,6 +37,8 @@
             android:label="@string/title_activity_lista_atracciones"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        
+        <service android:name="com.example.julianandres.parquedelcafe.services.MyService"/>
     </application>
 
 </manifest>
