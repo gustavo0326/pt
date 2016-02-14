@@ -17,7 +17,7 @@ public class MyService extends Service {
         this.ctx=this.getApplicationContext();
     }
 
-    public myService (Context c)
+    public MyService(Context c)
     {
         super();
         this.ctx=c;
